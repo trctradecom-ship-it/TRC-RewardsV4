@@ -314,7 +314,7 @@ function calculateReward(){
   // ✅ FIXED HERE (use totalWeight instead of epochWeight)
 
   document.getElementById("calcTotalWeight").value =
-    document.getElementById("totalWeight").innerText;
+    document.getElementById("epochWeight").innerText;
 
   document.getElementById("pool").value =
     document.getElementById("rewardPool").innerText;
